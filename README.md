@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ReadMe Projet API Restful
 
 ## Table of Contents
