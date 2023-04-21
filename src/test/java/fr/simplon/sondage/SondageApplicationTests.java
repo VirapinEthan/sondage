@@ -51,7 +51,7 @@ class SondageApplicationTests {
     @GetMapping("/rest/sondages")
     @Test
     void TestGetMapping() {
-       Sondage sondage1 = new Sondage("moussa","voulez vous moins travaillez","", LocalDate.now(),LocalDate.now().plusDays(7));
+       Sondage sondage1 = new Sondage("moussa","voulez vous moins travaillez","2h de moins ?", LocalDate.now(),LocalDate.now().plusDays(7));
        Sondage sondage2 = new Sondage("peter","en vrai qui l'aime ? ","go ban le chef", LocalDate.now(),LocalDate.now().plusDays(7));
 
        repository.saveAll(List.of(sondage1,sondage2));
